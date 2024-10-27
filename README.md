@@ -16,7 +16,9 @@ It allows to control the following options :
 
 ## Installation
 ```
-$ python setup.py install --user
+$ python -m venv .venv
+$ source .venv/bin/activate
+$ pip install .
 ```
 
 ## Usage
